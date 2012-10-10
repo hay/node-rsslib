@@ -1,0 +1,21 @@
+{
+  "name": "rsslib",
+  "author": "Faris",
+  "description": "RSS Library - RSS Parser for node.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farishjazz/node-rsslib.git"
+  },
+  "keywords": ["rss", "parser"],
+  "main": "./lib/RSSLib",
+  "engines": {
+    "node": ">= 0.4.7"
+  },
+  "dependencies": {
+    "request": "*",
+    "cheerio": "0.10.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
