@@ -8,9 +8,9 @@ This module parse content of RSS Feed and it can also obtain the html content.
 
 ## How to Use RSSLib
 
-	There are two functions such as `getListRSS` and `getRSSContent`.
+	There are two functions: `getRSSList` and `getRSSContent`.
 
-	getListRSS(url, callback)
+	getRSSList(url, callback)
 
 	getRSSContent(url, content_key, removeContext, callback)
 
@@ -24,7 +24,7 @@ This module parse content of RSS Feed and it can also obtain the html content.
 
 	var url = 'http://rss.cnn.com/rss/edition_us.rss';
 	
-	lib.getListRSS(url, function(result){
+	lib.getRSSList(url, function(result){
 		for(i=0;i<result.length;i++){
 			console.log('title: ' + result[i].title);
 			console.log('link: ' + result[i].link);
